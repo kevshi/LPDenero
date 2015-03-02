@@ -1,0 +1,532 @@
+1
+00:00:00,014 --> 00:00:04,383
+I'm this is 61 a lectured number one
+
+2
+00:00:04,509 --> 00:00:07,910
+offspring 2000 50
+
+3
+00:00:07,091 --> 00:00:10,167
+welcome to Berkeley computer science
+
+4
+00:00:11,067 --> 00:00:15,142
+I know for many view this is your first
+computer science course on campus
+
+5
+00:00:16,042 --> 00:00:22,106
+I really hope you enjoy it berkeley
+computer science is housed in soda hall
+
+6
+00:00:23,006 --> 00:00:26,055
+my office is here and I'm John dinero
+
+7
+00:00:26,109 --> 00:00:29,880
+rise spring 2013 office hours
+
+8
+00:00:29,088 --> 00:00:33,125
+are from 10 to 12 on Wednesday or Friday
+by appointment
+
+9
+00:00:34,025 --> 00:00:37,834
+also from 10 to 12 golden era .org slash
+meet
+
+10
+00:00:38,059 --> 00:00:44,870
+to set up an appointment I'll see you
+there I don't teach this class alone
+
+11
+00:00:44,087 --> 00:00:47,184
+because there are a lot of students and
+so I get a lot of help
+
+12
+00:00:48,084 --> 00:00:51,161
+now I spend almost all of my time
+
+13
+00:00:52,061 --> 00:00:56,100
+working with the core staff to make sure
+that this course is delivered
+
+14
+00:00:56,649 --> 00:00:59,657
+as smoothly as possible they're the real
+heroes in this course
+
+15
+00:01:00,449 --> 00:01:04,528
+who make everything happened to you
+today may include the teaching
+
+16
+00:01:05,239 --> 00:01:05,920
+assistants
+
+17
+00:01:05,092 --> 00:01:08,106
+who run discussion sections labs an
+office hours
+
+18
+00:01:09,006 --> 00:01:12,077
+where they all are people who have taken
+this course
+
+19
+00:01:12,077 --> 00:01:16,122
+worked on this course help develop this
+course I'm now teach this course
+
+20
+00:01:17,022 --> 00:01:20,811
+you can ask them questions about the
+course
+
+21
+00:01:21,009 --> 00:01:24,052
+of course but you can also ask them
+about
+
+22
+00:01:24,439 --> 00:01:28,439
+computer science in general what courses
+to take in the future
+
+23
+00:01:28,439 --> 00:01:32,461
+what strategies to use to do well in
+this course
+
+24
+00:01:32,659 --> 00:01:35,930
+I want to do in your free time anything
+you want
+
+25
+00:01:35,093 --> 00:01:40,118
+there there to teach you there are also
+27 group
+
+26
+00:01:41,018 --> 00:01:44,747
+tutors who were part of the core staff
+they will be your personal programming
+
+27
+00:01:44,909 --> 00:01:45,951
+mentors for the course
+
+28
+00:01:46,329 --> 00:01:50,361
+and I'll talk much more about them in
+the future and then
+
+29
+00:01:50,649 --> 00:01:54,240
+are over 300 people who took this course
+before
+
+30
+00:01:54,024 --> 00:01:58,113
+and volunteering to be lab assistants as
+they learn how to be computer science
+
+31
+00:01:59,013 --> 00:02:00,032
+and structures
+
+32
+00:02:00,149 --> 00:02:03,242
+please keep in mind that the lab
+assistants
+
+33
+00:02:04,079 --> 00:02:07,130
+have decided to spend sum up their time
+helping you
+
+34
+00:02:07,013 --> 00:02:08,077
+so you should thank them
+
+35
+00:02:08,077 --> 00:02:11,102
+and they do help you and try not to be
+hard on them if they don't
+
+36
+00:02:12,002 --> 00:02:15,021
+always know exactly how to help you
+instantaneously
+
+37
+00:02:15,021 --> 00:02:18,076
+teaching takes time problems take time
+to solve
+
+38
+00:02:18,076 --> 00:02:21,115
+and we all need to work together an
+order to make progress
+
+39
+00:02:22,015 --> 00:02:25,106
+now here the parts of the course
+
+40
+00:02:26,006 --> 00:02:29,102
+there's lecture but you don't actually
+have to go to lecture
+
+41
+00:02:30,002 --> 00:02:33,056
+because I will be publishing videos like
+this one
+
+42
+00:02:33,056 --> 00:02:36,071
+to the course website CS 61a .org
+
+43
+00:02:36,071 --> 00:02:39,074
+and these videos will always be
+published before
+
+44
+00:02:39,074 --> 00:02:43,101
+each live lecture so if you want to just
+watch the course on video
+
+45
+00:02:44,001 --> 00:02:49,080
+that's fine you don't need to come to
+lecture you do need to go to lab
+
+46
+00:02:49,008 --> 00:02:53,056
+lab is the most important thing in this
+course it's where you have a chance
+
+47
+00:02:54,028 --> 00:02:57,112
+to try to solve problems with other
+people in the room to assist you
+
+48
+00:02:58,012 --> 00:03:02,019
+including your peers were also in the
+course the lab assistants and the TA's
+
+49
+00:03:02,082 --> 00:03:05,114
+discussion section
+
+50
+00:03:06,014 --> 00:03:10,056
+is also the most important thing in this
+course discussion section is where you
+
+51
+00:03:10,056 --> 00:03:12,064
+put down your computer for a while
+
+52
+00:03:12,064 --> 00:03:16,113
+and think about how to solve problems
+just with pencil and paper
+
+53
+00:03:17,013 --> 00:03:20,064
+which is an extremely important skill in
+computer science
+
+54
+00:03:20,064 --> 00:03:24,118
+because it stops you from just working
+through problems by trial
+
+55
+00:03:25,018 --> 00:03:28,021
+an error and gets you to think through
+the whole problem
+
+56
+00:03:28,048 --> 00:03:32,114
+before you start trying to write down
+the answer if you can do this
+
+57
+00:03:33,014 --> 00:03:36,032
+programming as much more rewarding much
+more fun
+
+58
+00:03:36,032 --> 00:03:40,055
+and much more productive there are also
+
+59
+00:03:40,055 --> 00:03:43,077
+office hours which will start on
+Thursday of this week
+
+60
+00:03:43,077 --> 00:03:46,098
+they are also the most important thing
+in this course
+
+61
+00:03:46,098 --> 00:03:49,104
+them a chance for you to come ask
+specific questions
+
+62
+00:03:50,004 --> 00:03:53,027
+confused about something in lecture on
+the office hours
+
+63
+00:03:53,027 --> 00:03:56,050
+can solve a homework problem come to
+office hours
+
+64
+00:03:56,005 --> 00:04:00,021
+want to discuss and extracurricular
+project you're working on
+
+65
+00:04:00,066 --> 00:04:03,072
+come to office hours these are your
+chance to
+
+66
+00:04:03,072 --> 00:04:06,143
+interact with the core staff were so
+interested in making sure that your
+
+67
+00:04:07,043 --> 00:04:11,116
+now you might wonder why there are three
+different most important things in this
+
+68
+00:04:12,016 --> 00:04:12,073
+course
+
+69
+00:04:12,073 --> 00:04:15,127
+well different things are important to
+different people
+
+70
+00:04:16,027 --> 00:04:19,366
+I can tell you in advance which one's
+going to matter most to you
+
+71
+00:04:19,609 --> 00:04:22,050
+so you should try all three and figure
+out
+
+72
+00:04:22,005 --> 00:04:25,090
+what helps you learn the best there's an
+online textbook
+
+73
+00:04:25,009 --> 00:04:28,017
+composing programs that com and the
+course website
+
+74
+00:04:28,098 --> 00:04:32,113
+links two chapters in composing programs
+for each day's reading
+
+75
+00:04:33,013 --> 00:04:36,075
+I do suggest that you do the reading
+before you watch the video
+
+76
+00:04:36,075 --> 00:04:40,112
+there will be weekly homework
+assignments
+
+77
+00:04:41,012 --> 00:04:46,012
+three exams three quizzes and four large
+programming projects
+
+78
+00:04:46,012 --> 00:04:49,068
+you need to do all up you're expected to
+complete
+
+79
+00:04:49,068 --> 00:04:52,139
+everything which is a lot of stuff to
+keep track of so make sure you leave
+
+80
+00:04:53,039 --> 00:04:57,074
+ample time for this course in order to
+support you
+
+81
+00:04:57,074 --> 00:05:00,083
+while you're trying to learn all this
+material we have lots of special
+
+82
+00:05:01,064 --> 00:05:05,139
+events which I'll tell you about soon
+events that are supposed to help you
+
+83
+00:05:06,039 --> 00:05:10,043
+solve the projects all the homeworks
+master certain hard concepts
+
+84
+00:05:10,043 --> 00:05:13,090
+at center so all this is there in order
+to make sure
+
+85
+00:05:13,009 --> 00:05:16,101
+that in one semester you can learn a
+whole lot about computers
+
+86
+00:05:17,082 --> 00:05:21,153
+now
+
+87
+00:05:22,053 --> 00:05:25,084
+these videos are going to be available
+for every lecture in the course
+
+88
+00:05:25,084 --> 00:05:28,151
+but I'm not gonna make a new video for
+every lecture
+
+89
+00:05:29,051 --> 00:05:32,054
+in fact almost everything else a this
+semester
+
+90
+00:05:32,081 --> 00:05:35,168
+is something that I've said before in a
+previous semester and I've already made
+
+91
+00:05:36,068 --> 00:05:36,137
+videos
+
+92
+00:05:37,037 --> 00:05:40,116
+sup here's the deal for everything that
+i'm gonna say
+
+93
+00:05:41,016 --> 00:05:44,040
+exactly the same way this semester than
+I did before
+
+94
+00:05:44,004 --> 00:05:47,056
+I'll just post and all the video which
+will either be
+
+95
+00:05:47,092 --> 00:05:50,155
+from last fall or the spring before that
+but
+
+96
+00:05:51,055 --> 00:05:54,148
+for anything that I say that's new even
+a little bit new
+
+97
+00:05:55,048 --> 00:05:58,050
+in live lecture I'll make a new video
+
+98
+00:05:58,068 --> 00:06:01,071
+so that the videos contain all the
+contents
+
+99
+00:06:01,098 --> 00:06:04,166
+in the live lecture so that's the
+contract I make with you
+
+100
+00:06:05,066 --> 00:06:08,098
+I'm not gonna make all new videos but I
+will make sure
+
+101
+00:06:08,098 --> 00:06:12,191
+I will guarantee wrapped video content
+is the same as the lecture cunt
+
+102
+00:06:13,091 --> 00:06:17,110
+you can choose which one you like better
+if you liked videos because you can
+
+103
+00:06:18,001 --> 00:06:18,072
+pause
+
+104
+00:06:18,081 --> 00:06:21,155
+because you can follow along on your
+computer because you can play them at
+
+105
+00:06:22,055 --> 00:06:22,150
+double speed
+
+106
+00:06:23,005 --> 00:06:27,099
+whatever it is go ahead and watch the
+videos instead of coming to live lecture
+
+107
+00:06:28,044 --> 00:06:31,089
+I will try to make live lecture is
+interesting as possible
+
+108
+00:06:31,089 --> 00:06:33,094
+some people will show up
+
+109
+00:06:33,094 --> 00:06:37,116
+I'll be there so you're welcome to come
+to that too but i just want to give you
+
+110
+00:06:38,016 --> 00:06:41,065
+multiple options so that you can pick
+what works best for you
+
+111
+00:06:41,065 --> 00:06:42,077
+in this course
+
