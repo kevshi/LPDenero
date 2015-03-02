@@ -1,0 +1,11 @@
+body {
+
+}
+#header{
+	display: table;
+	margin: auto; 
+	padding-top: 25px;
+	font-size: 30px;
+	font-weight: 900;
+
+	}

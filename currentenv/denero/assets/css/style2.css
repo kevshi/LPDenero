@@ -1,0 +1,56 @@
+body {
+	font-family: 'Open Sans';
+}
+#header1{
+	display: table;
+	margin: auto; 
+	padding-top: 250px;
+	padding-left: 25px ;
+	font-size: 120px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: white;
+	}
+
+#header2{
+	display: table;
+	margin: auto; 
+	padding-left: 25px ;
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: white;
+	}
+/*
+html { 
+  background: url(space.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*/
+
+
+form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 20px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left: -8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
