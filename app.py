@@ -14,19 +14,19 @@ def home():
 	g.db = connect_db()
 	cur = g.db.execute('select * from videos')
 	videos = [[row[0], row[1]] for row in cur.fetchall()]
-	query = request.form['search']
+	query = 'course'
 	for video in videos:
 		k = search(video[0], query)
 		video[1] = k
 		video[0] = video[0].replace('./videofiles/', '')
 		video[0] = video[0].replace('.txt', '')
 
-	error = None
-	if request.method == 'POST':
-		if query == '':
-			error = 'Did not input search, please re-enter.'
-		else:
-			return redirect(url_for('result'))
+	# error = None
+	# if request.method == 'POST':
+	# 	if query == '':
+	# 		error = 'Did not input search, please re-enter.'
+	# 	else:
+	# 		return redirect(url_for('result'))
 	return render_template('index.html')
 
 
@@ -40,5 +40,6 @@ def connect_db():
 	return sqlite3.connect(app.database)
 
 # runs application
+app.debug = True
 if __name__ == '__main__':
     app.run()
