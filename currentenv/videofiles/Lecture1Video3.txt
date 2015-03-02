@@ -1,0 +1,478 @@
+1
+00:00:01,002 --> 00:00:03,007
+before we dive into the material the
+course
+
+2
+00:00:03,052 --> 00:00:07,093
+a bit about course policies in general
+
+3
+00:00:07,093 --> 00:00:12,167
+this course moves very quickly and it
+was designed originally for people who
+
+4
+00:00:13,067 --> 00:00:13,116
+had
+
+5
+00:00:14,016 --> 00:00:17,024
+a substantial amount of prior experience
+in
+
+6
+00:00:17,024 --> 00:00:22,058
+computer programming last fall about a
+third of students who took the course
+
+7
+00:00:22,058 --> 00:00:25,059
+didn't have any programming ability to
+start with
+
+8
+00:00:25,059 --> 00:00:29,418
+so it's not that you can take this
+course if you have a program before
+
+9
+00:00:29,949 --> 00:00:34,600
+certainly you can but it does move fast
+and it does require a lot of work
+
+10
+00:00:34,006 --> 00:00:38,074
+so I wanted to let you know about some
+alternatives to this course
+
+11
+00:00:39,028 --> 00:00:42,055
+one is called CS 61 a s
+
+12
+00:00:42,055 --> 00:00:45,634
+as stands for self-paced instead of
+having
+
+13
+00:00:46,129 --> 00:00:50,980
+I'm rigid schedule such as in this
+course you instead get to work through
+
+14
+00:00:50,098 --> 00:00:50,189
+the material
+
+15
+00:00:51,089 --> 00:00:55,135
+at the pace that you want which means
+the you can master each topic before
+
+16
+00:00:56,035 --> 00:00:57,046
+moving on
+
+17
+00:00:57,046 --> 00:01:01,123
+which is a wonderful thing so you should
+consider this course if you think you
+
+18
+00:01:02,023 --> 00:01:03,069
+might want to move more slowly
+
+19
+00:01:03,069 --> 00:01:06,538
+or more quickly through the material
+then the pace
+
+20
+00:01:07,159 --> 00:01:10,187
+a 61 day I'm CS
+
+21
+00:01:10,439 --> 00:01:15,570
+10 is called the beauty and joy of
+computing this is a wonderful course
+
+22
+00:01:15,057 --> 00:01:18,066
+I mean student to take it just love it
+is a course
+
+23
+00:01:19,047 --> 00:01:22,486
+introduces a lot of the same topics
+about abstraction
+
+24
+00:01:22,909 --> 00:01:25,960
+and methods for computing as this course
+
+25
+00:01:25,096 --> 00:01:28,174
+but it does it using a programming
+language and environment
+
+26
+00:01:29,074 --> 00:01:32,142
+that was specifically designed for
+people who are new to computing
+
+27
+00:01:33,042 --> 00:01:37,086
+so it's a great way to learn and an
+excellent introduction to computer
+
+28
+00:01:37,086 --> 00:01:37,174
+science as well
+
+29
+00:01:38,074 --> 00:01:41,203
+so if you find yourself over well
+
+30
+00:01:41,869 --> 00:01:46,590
+after weaker to have this course
+definitely spend the time to talk to the
+
+31
+00:01:46,059 --> 00:01:46,134
+TA's
+
+32
+00:01:47,034 --> 00:01:51,052
+and figure out whether maybe one of
+these courses is right for you
+
+33
+00:01:51,052 --> 00:01:56,060
+on the course policies
+
+34
+00:01:56,006 --> 00:01:59,009
+first the purpose of this course is for
+you to learn
+
+35
+00:01:59,063 --> 00:02:03,159
+learn ideas that you don't already know
+so you should never feel bad if you
+
+36
+00:02:04,059 --> 00:02:05,124
+don't understand something yet
+
+37
+00:02:06,024 --> 00:02:10,067
+I'm keep learning keep working hard and
+you will understand it
+
+38
+00:02:10,067 --> 00:02:13,144
+I'm now we want to support
+
+39
+00:02:14,044 --> 00:02:17,129
+everybody in this class learning which
+means I won't tolerate
+
+40
+00:02:18,029 --> 00:02:21,032
+and it disrespectful or condescending
+behavior
+
+41
+00:02:21,059 --> 00:02:25,158
+are comments port other members that the
+class if you notice that other people
+
+42
+00:02:26,058 --> 00:02:30,100
+haven't understood something at you can
+help them instead of being rude
+
+43
+00:02:31,000 --> 00:02:35,005
+and in doing so we will build a
+community
+
+44
+00:02:35,005 --> 00:02:39,062
+%uh learners and developers together and
+that's really important because
+
+45
+00:02:39,062 --> 00:02:43,140
+computer science these days involves
+lots of people working together
+
+46
+00:02:44,004 --> 00:02:49,057
+there was a time on computer science was
+dominated by the activity of
+
+47
+00:02:49,093 --> 00:02:53,111
+just sitting alone with the computer and
+working on it yourself but that's just
+
+48
+00:02:54,011 --> 00:02:55,055
+not effective anymore
+
+49
+00:02:55,055 --> 00:02:59,057
+now in order to build programs that
+really change the world
+
+50
+00:02:59,057 --> 00:03:03,130
+you need to work with other people so I
+would recommend seeking out people that
+
+51
+00:03:04,003 --> 00:03:05,029
+understand more than you
+
+52
+00:03:05,056 --> 00:03:09,058
+and asking them questions and learning
+from them seek out people who seem to
+
+53
+00:03:09,076 --> 00:03:10,151
+understand less than you right now
+
+54
+00:03:11,051 --> 00:03:15,094
+and teach them something one of the most
+important skills you learn in colleges
+
+55
+00:03:15,094 --> 00:03:15,126
+had
+
+56
+00:03:16,026 --> 00:03:19,062
+explain things to other people some
+practice now
+
+57
+00:03:19,062 --> 00:03:23,084
+and together we'll build a supportive
+learning community well we all
+
+58
+00:03:23,084 --> 00:03:26,263
+master this stuff together third the
+
+59
+00:03:27,019 --> 00:03:30,044
+core staff is here to help you succeed
+
+60
+00:03:30,269 --> 00:03:34,670
+or not here to judge you or figure out
+whether you can cut it
+
+61
+00:03:34,067 --> 00:03:37,116
+in computer sack we already know you're
+talented
+
+62
+00:03:38,016 --> 00:03:41,815
+that's why you're berkeley we already
+know that you can work hard
+
+63
+00:03:41,959 --> 00:03:45,015
+and we're asking that you continue to
+work hard on this subject
+
+64
+00:03:45,519 --> 00:03:48,720
+and if you do that we are here to
+support you
+
+65
+00:03:48,072 --> 00:03:52,133
+wanna make sure that your efforts are
+efficient and effective
+
+66
+00:03:53,033 --> 00:03:56,055
+and we want to support the community
+that will develop here
+
+67
+00:03:56,055 --> 00:04:00,148
+as we all work together what about those
+other course policies like
+
+68
+00:04:01,048 --> 00:04:04,110
+what happens when you turn in something
+later what your grade will be
+
+69
+00:04:05,001 --> 00:04:08,035
+well those are all details as you can
+find on the web
+
+70
+00:04:08,044 --> 00:04:13,077
+retin-a one thing I will talk about his
+collaboration so like I said
+
+71
+00:04:13,077 --> 00:04:16,115
+ask lots of questions is really
+important in the learning process
+
+72
+00:04:17,015 --> 00:04:20,068
+you can discuss everything in this
+course with each other
+
+73
+00:04:20,068 --> 00:04:23,073
+homework can be completed
+
+74
+00:04:23,073 --> 00:04:27,166
+with a partner and you just turn in one
+copy of the homework instead of two
+
+75
+00:04:28,066 --> 00:04:32,070
+projects can and should be completed
+
+76
+00:04:32,007 --> 00:04:35,058
+with the partner so you can work
+together with another person
+
+77
+00:04:36,021 --> 00:04:39,118
+and you should choose a partner from
+your discussion section
+
+78
+00:04:40,018 --> 00:04:43,020
+your TA's will help you do this that way
+
+79
+00:04:43,002 --> 00:04:46,020
+he always be meeting each other
+regularly throughout the week
+
+80
+00:04:46,038 --> 00:04:49,107
+there are limits to collaboration
+however
+
+81
+00:04:50,007 --> 00:04:53,025
+you need to do your own work in this
+class
+
+82
+00:04:53,025 --> 00:04:56,032
+there's one simple rule don't share your
+code with
+
+83
+00:04:56,032 --> 00:05:01,036
+anybody except for your partner copying
+project solutions causes people to fail
+
+84
+00:05:01,036 --> 00:05:01,044
+this course
+
+85
+00:05:02,016 --> 00:05:05,051
+you do not want to do that that is a
+serious offence
+
+86
+00:05:05,051 --> 00:05:11,069
+and common cause consequences that you
+will certainly regret we really do catch
+
+87
+00:05:11,069 --> 00:05:12,075
+people who violate these rules
+
+88
+00:05:13,029 --> 00:05:16,084
+because we also know how to search the
+web for solutions
+
+89
+00:05:16,084 --> 00:05:19,169
+don't do that and we know how to use
+computers which means we could check
+
+90
+00:05:20,069 --> 00:05:22,074
+whether solution is similar to somebody
+else's
+
+91
+00:05:23,019 --> 00:05:27,054
+even if you try to out she skated now
+don't just
+
+92
+00:05:27,054 --> 00:05:31,108
+avoid copying because we'll catch you
+you should avoid copying because you
+
+93
+00:05:32,008 --> 00:05:34,016
+need to build good habits in life
+
+94
+00:05:34,016 --> 00:05:38,041
+now the point of college is to set
+yourself up
+
+95
+00:05:38,041 --> 00:05:41,076
+for success in the future and part of
+that
+
+96
+00:05:41,076 --> 00:05:44,112
+is building great habits about working
+with other people
+
+97
+00:05:45,012 --> 00:05:48,096
+because out there in the world there's a
+lot of people to discuss with
+
+98
+00:05:48,096 --> 00:05:52,098
+discussion is a good thing but there's
+nobody to copy answers of
+
+99
+00:05:52,098 --> 00:05:55,176
+because you'll be working on things that
+have never been done before I'm
+
+100
+00:05:56,076 --> 00:06:00,097
+sup learn to work with other people but
+don't copy this list
+
+101
+00:06:00,097 --> 00:06:00,186
+period
+

@@ -1,0 +1,402 @@
+1
+00:00:01,052 --> 00:00:04,541
+lecture number two let me just give you
+a quick overview
+
+2
+00:00:05,009 --> 00:00:09,068
+of course website so you know what
+resources are available to you
+
+3
+00:00:09,599 --> 00:00:14,320
+every day in addition to giving lecture
+
+4
+00:00:14,032 --> 00:00:18,321
+also post the announcements from that
+lecture this region
+
+5
+00:00:18,609 --> 00:00:24,990
+the course website CS 61a .org I'll go
+through the announcement now
+
+6
+00:00:24,099 --> 00:00:27,191
+although in future weeks I'll just let
+you read them for yourself
+
+7
+00:00:28,091 --> 00:00:32,144
+starting next week please come to lab
+
+8
+00:00:33,044 --> 00:00:37,121
+and attend discussion because doing so
+will provide you with the midterm safety
+
+9
+00:00:38,021 --> 00:00:38,025
+net
+
+10
+00:00:38,061 --> 00:00:42,152
+what that means is you get a
+particularly low score on the midterm
+
+11
+00:00:43,052 --> 00:00:46,135
+you earned some points back just for
+having participated
+
+12
+00:00:47,035 --> 00:00:52,037
+and lap and discussion section now if
+you get a high score on the midterm
+
+13
+00:00:52,055 --> 00:00:55,071
+been attending these things won't affect
+you directly
+
+14
+00:00:55,071 --> 00:00:58,110
+except for that the reason you got a
+high score might be because you attended
+
+15
+00:00:59,001 --> 00:00:59,053
+lap
+
+16
+00:00:59,062 --> 00:01:02,501
+so it's a good idea to attend lab and
+discussion section
+
+17
+00:01:03,059 --> 00:01:06,340
+although it is possible to get a perfect
+score course
+
+18
+00:01:06,034 --> 00:01:10,042
+without doing so homework one
+
+19
+00:01:10,042 --> 00:01:13,051
+is due next Wednesday it will be
+released
+
+20
+00:01:14,032 --> 00:01:17,077
+on Friday all homework is graded on
+
+21
+00:01:17,077 --> 00:01:21,124
+effort in this course but effort means
+that you make progress on every problem
+
+22
+00:01:22,024 --> 00:01:27,028
+and then you get full credit for the
+homework two points and a 2-point look
+
+23
+00:01:27,064 --> 00:01:31,143
+way we measure effort is first to check
+to see if you got the problem right
+
+24
+00:01:32,043 --> 00:01:35,086
+if so we assume you put some effort into
+getting the problem right
+
+25
+00:01:35,086 --> 00:01:39,134
+to get full credit if on the other hand
+you don't get it right
+
+26
+00:01:40,034 --> 00:01:44,041
+than one members of the course we'll
+take a look at your homework
+
+27
+00:01:45,004 --> 00:01:48,973
+and see whether you made progress or not
+which involve some human judgment
+
+28
+00:01:49,009 --> 00:01:53,070
+and they wanna look for actual effort
+I'm just returning 0
+
+29
+00:01:53,007 --> 00:01:56,014
+or something like that for every
+different function years both
+
+30
+00:01:56,014 --> 00:02:00,050
+okay to make sure that your able to
+complete the homework
+
+31
+00:02:00,005 --> 00:02:03,984
+we have a homework party next tuesday
+from 5 to 6:30 p.m.
+
+32
+00:02:04,479 --> 00:02:08,930
+and 2050 Valley life science building
+
+33
+00:02:08,093 --> 00:02:10,166
+the homeworks due on Wednesday and then
+that day
+
+34
+00:02:11,066 --> 00:02:14,129
+a quiz will be released the quiz
+something you do at home
+
+35
+00:02:15,029 --> 00:02:19,121
+with the computer it's similar to the
+homework actually a little bit easier
+
+36
+00:02:20,021 --> 00:02:20,107
+than the homework
+
+37
+00:02:21,007 --> 00:02:24,009
+but you have to complete it by yourself
+and in only one day
+
+38
+00:02:24,027 --> 00:02:28,074
+and it's meant to help you test whether
+or not you're keeping up with the course
+
+39
+00:02:28,074 --> 00:02:31,125
+so far it's not worth a lot of points
+only three
+
+40
+00:02:32,025 --> 00:02:36,026
+300 points total in the course but
+that's about the you should pay
+
+41
+00:02:36,035 --> 00:02:36,134
+attention to it
+
+42
+00:02:37,034 --> 00:02:41,072
+and you should use that to gauge how the
+course is going so far
+
+43
+00:02:41,072 --> 00:02:44,100
+and if it doesn't go well then you
+should think about changing the way you
+
+44
+00:02:45,000 --> 00:02:46,007
+approach the course
+
+45
+00:02:46,007 --> 00:02:49,074
+either by allocating more time to it for
+more homework parties
+
+46
+00:02:49,074 --> 00:02:55,103
+or something like that if you wanna ask
+questions about lab and homework
+
+47
+00:02:56,003 --> 00:02:57,086
+assignments come to office hours
+
+48
+00:02:57,086 --> 00:03:00,151
+you can go to CS 61a .org slash weekly
+
+49
+00:03:01,051 --> 00:03:06,075
+which is also linked from the weekly
+schedule here on the weekly schedule
+
+50
+00:03:06,075 --> 00:03:09,092
+you'll see all Lapan discussion sections
+
+51
+00:03:09,092 --> 00:03:12,097
+if you ever miss a lab you could just go
+to a different
+
+52
+00:03:12,097 --> 00:03:15,109
+and it also has in blue
+
+53
+00:03:16,009 --> 00:03:19,036
+all the different office hours which
+started this Thursday
+
+54
+00:03:19,036 --> 00:03:22,121
+is a few on Friday and next week there's
+a whole bunch
+
+55
+00:03:23,021 --> 00:03:27,070
+and you can see where they are by
+clicking on this one's in garbarini
+
+56
+00:03:27,007 --> 00:03:27,074
+lounge
+
+57
+00:03:28,037 --> 00:03:32,098
+where's that well if we go back to the
+announcements you'll see
+
+58
+00:03:32,098 --> 00:03:37,099
+I made a map for you this map shows you
+where garbarino lounges
+
+59
+00:03:37,099 --> 00:03:40,105
+and 240 pactel the other location for
+
+60
+00:03:41,005 --> 00:03:44,060
+office hours is in the back tell
+Engineering Center
+
+61
+00:03:44,006 --> 00:03:47,070
+which is somewhere in the middle of
+campus memorial Glade
+
+62
+00:03:48,024 --> 00:03:52,109
+and his office hours happen all the time
+just like I showed you
+
+63
+00:03:53,009 --> 00:03:57,093
+on the weekly schedule the last thing
+you need to know is that you really need
+
+64
+00:03:57,093 --> 00:04:00,097
+to register at class account which is
+what you do in lab 0
+
+65
+00:04:01,033 --> 00:04:04,100
+if you haven't received a class account
+form talk to your TA
+
+66
+00:04:05,000 --> 00:04:08,048
+if you don't have a TA because you
+haven't come to lab for discussion
+
+67
+00:04:08,048 --> 00:04:12,100
+that's not good coral ap discussion you
+will get back out forms their
+
+68
+00:04:13,000 --> 00:04:16,009
+please register even if you're on the
+waitlist or or
+
+69
+00:04:16,009 --> 00:04:18,063
+applying for concurrent enrollment just
+
+70
+00:04:18,063 --> 00:04:21,088
+act like an enrolled student I'll try to
+get everybody enrolled
+
+71
+00:04:21,088 --> 00:04:24,186
+as soon as possible okay
+
+72
+00:04:25,086 --> 00:04:29,104
+the announcement section the course
+website you can also discover other
+
+73
+00:04:30,004 --> 00:04:31,049
+stuff that's going on here
+
+74
+00:04:31,049 --> 00:04:34,050
+but most importantly you can find videos
+
+75
+00:04:34,059 --> 00:04:37,059
+and you can find the examples from each
+lecture
+
+76
+00:04:37,059 --> 00:04:41,137
+and the slides so if you wanna fine
+howling
+
+77
+00:04:42,037 --> 00:04:45,038
+showed you lecture usually you just
+
+78
+00:04:45,038 --> 00:04:48,127
+open up the slides go find the link
+click your link to the course website
+
+79
+00:04:49,027 --> 00:04:53,078
+click on it and you're right there where
+you were before everything I show in a
+
+80
+00:04:53,078 --> 00:04:53,153
+browser
+
+81
+00:04:54,053 --> 00:04:58,125
+I usually linked to from the flight
+you'll also find lab in discussion
+
+82
+00:04:59,025 --> 00:05:00,122
+handouts and all the assignments
+
+83
+00:05:01,022 --> 00:05:06,095
+on the course website so now that you
+know where everything is
+
+84
+00:05:06,095 --> 00:05:09,166
+when I post videos you should also know
+how to check the announcement
+
+85
+00:05:10,066 --> 00:05:12,132
+at the top of the page to make sure
+you're not forgetting anything
+
