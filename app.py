@@ -37,7 +37,7 @@ def result():
 	for video in videos:
 		count += video[1]
 
-	return render_template('result.html', title = video[0], description = video[1])
+	return render_template('result.html', count = count) 
 
 #creates database object
 def connect_db():
