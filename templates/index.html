@@ -10,14 +10,22 @@
 	<div id="container">
 	<div id="header1"> The Vocab</div>
 	<div id="header2"> Of Professor DeNero</div>
-	<form name = "search">
+	<form action="" method = "post">
+		<input type = "text" placeholder = "Search..." name = "search" value = "{{request.form.search}}">
+		<input type="button" value="Search">
+	</form>
+
+	{% if error %}
+		<p>Error: {{ error }}</p>
+	{% endif %}
+	<!-- 
+	<form name = "search" action="" method="Post">
                                 <input type="text" name = "texter" placeholder="Search..." required>
-                                <input type="button" value="Search" onClick = processSearch()>
+                                <input type="button" value="Search>
 	</form>
 	<div id="searchR"></div>
-	
-
-
+	 -->
 </body>
+
 
 
